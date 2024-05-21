@@ -1,0 +1,252 @@
+[
+  {
+    "frage": "Was ist die Hauptstadt von Frankreich?",
+    "antworten": {
+      "a": "London",
+      "b": "Berlin",
+      "c": "Madrid",
+      "d": "Paris"
+    },
+    "richtig": "d"
+  },
+  {
+    "frage": "Wer hat die Relativitätstheorie entwickelt?",
+    "antworten": {
+      "a": "Isaac Newton",
+      "b": "Albert Einstein",
+      "c": "Stephen Hawking",
+      "d": "Galileo Galilei"
+    },
+    "richtig": "b"
+  },
+  {
+    "frage": "Welcher Planet ist der vierte in unserem Sonnensystem?",
+    "antworten": {
+      "a": "Mars",
+      "b": "Venus",
+      "c": "Jupiter",
+      "d": "Erde"
+    },
+    "richtig": "a"
+  },
+  {
+    "frage": "Welches ist das kleinste Land der Welt?",
+    "antworten": {
+      "a": "Vatikanstadt",
+      "b": "Monaco",
+      "c": "San Marino",
+      "d": "Nauru"
+    },
+    "richtig": "a"
+  },
+  {
+    "frage": "Was ist die chemische Formel für Wasser?",
+    "antworten": {
+      "a": "H2O2",
+      "b": "CO2",
+      "c": "H2O",
+      "d": "CH4"
+    },
+    "richtig": "c"
+  },
+  {
+    "frage": "Wer hat das Buch 'Die Odyssee' geschrieben?",
+    "antworten": {
+      "a": "Homer",
+      "b": "Platon",
+      "c": "Aristoteles",
+      "d": "Sokrates"
+    },
+    "richtig": "a"
+  },
+  {
+    "frage": "Welches ist das längste Fluss der Welt?",
+    "antworten": {
+      "a": "Nil",
+      "b": "Amazonas",
+      "c": "Mississippi",
+      "d": "Jangtse"
+    },
+    "richtig": "a"
+  },
+  {
+    "frage": "In welchem Jahr landete der Mensch zum ersten Mal auf dem Mond?",
+    "antworten": {
+      "a": "1965",
+      "b": "1969",
+      "c": "1972",
+      "d": "1975"
+    },
+    "richtig": "b"
+  },
+  {
+    "frage": "Was ist die Hauptzutat in Guacamole?",
+    "antworten": {
+      "a": "Tomate",
+      "b": "Avocado",
+      "c": "Kartoffel",
+      "d": "Zwiebel"
+    },
+    "richtig": "b"
+  },
+  {
+    "frage": "Welches Element hat die chemische Bezeichnung Fe?",
+    "antworten": {
+      "a": "Eisen",
+      "b": "Kohlenstoff",
+      "c": "Fluor",
+      "d": "Silber"
+    },
+    "richtig": "a"
+  },
+  {
+    "frage": "Was ist die Hauptstadt von Kanada?",
+    "antworten": {
+      "a": "Ottawa",
+      "b": "Toronto",
+      "c": "Vancouver",
+      "d": "Montreal"
+    },
+    "richtig": "a"
+  },
+  {
+    "frage": "Wer hat die Mona Lisa gemalt?",
+    "antworten": {
+      "a": "Vincent van Gogh",
+      "b": "Leonardo da Vinci",
+      "c": "Pablo Picasso",
+      "d": "Michelangelo"
+    },
+    "richtig": "b"
+  },
+  {
+    "frage": "Welches Land hat die meisten Einwohner?",
+    "antworten": {
+      "a": "China",
+      "b": "Indien",
+      "c": "USA",
+      "d": "Russland"
+    },
+    "richtig": "a"
+  },
+  {
+    "frage": "Wer hat die Gravitationstheorie entwickelt?",
+    "antworten": {
+      "a": "Isaac Newton",
+      "b": "Galileo Galilei",
+      "c": "Albert Einstein",
+      "d": "Johannes Kepler"
+    },
+    "richtig": "a"
+  },
+  {
+    "frage": "Was ist die chemische Bezeichnung für Tafelsalz?",
+    "antworten": {
+      "a": "NaCl",
+      "b": "H2O",
+      "c": "C6H12O6",
+      "d": "CO2"
+    },
+    "richtig": "a"
+  },
+  {
+    "frage": "Wer hat die Relativitätstheorie entwickelt?",
+    "antworten": {
+      "a": "Isaac Newton",
+      "b": "Albert Einstein",
+      "c": "Stephen Hawking",
+      "d": "Galileo Galilei"
+    },
+    "richtig": "b"
+  },
+  {
+    "frage": "Welcher Planet ist der zweitgrößte in unserem Sonnensystem?",
+    "antworten": {
+      "a": "Mars",
+      "b": "Venus",
+      "c": "Jupiter",
+      "d": "Erde"
+    },
+    "richtig": "b"
+  },
+  {
+    "frage": "Was ist die Hauptstadt von Australien?",
+    "antworten": {
+      "a": "Melbourne",
+      "b": "Sydney",
+      "c": "Canberra",
+      "d": "Perth"
+    },
+    "richtig": "c"
+  },
+  {
+    "frage": "Wer schrieb 'Romeo und Julia'?",
+    "antworten": {
+      "a": "William Shakespeare",
+      "b": "Charles Dickens",
+      "c": "Jane Austen",
+      "d": "Mark Twain"
+    },
+    "richtig": "a"
+  },
+  {
+    "frage": "Wer hat die berühmte Formel E=mc^2 entwickelt?",
+    "antworten": {
+      "a": "Isaac Newton",
+      "b": "Galileo Galilei",
+      "c": "Albert Einstein",
+      "d": "Stephen Hawking"
+    },
+    "richtig": "c"
+  },
+  {
+    "frage": "Welches Tier ist das Wappentier von Australien?",
+    "antworten": {
+      "a": "Emu",
+      "b": "Känguru",
+      "c": "Koala",
+      "d": "Wombat"
+    },
+    "richtig": "b"
+  },
+  {
+    "frage": "Welches ist das größte Land der Welt?",
+    "antworten": {
+      "a": "USA",
+      "b": "China",
+      "c": "Russland",
+      "d": "Kanada"
+    },
+    "richtig": "c"
+  },
+  {
+    "frage": "Welches ist das längste Gebirge der Welt?",
+    "antworten": {
+      "a": "Anden",
+      "b": "Rockies",
+      "c": "Himalaya",
+      "d": "Alpen"
+    },
+    "richtig": "a"
+  },
+  {
+    "frage": "Wer schrieb das Buch 'Der Große Gatsby'?",
+    "antworten": {
+      "a": "Ernest Hemingway",
+      "b": "F. Scott Fitzgerald",
+      "c": "Mark Twain",
+      "d": "William Faulkner"
+    },
+    "richtig": "b"
+  },
+  {
+    "frage": "Was ist die chemische Bezeichnung für Blei?",
+    "antworten": {
+      "a": "Fe",
+      "b": "Pb",
+      "c": "Ag",
+      "d": "Na"
+    },
+    "richtig": "b"
+  }
+]
