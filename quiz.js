@@ -1,6 +1,6 @@
 let beantworteteFragen = 0;
 let richtigeAntworten = 0;
-const anzahlFragen = 10;
+const anzahlFragen = 5;
 const genutzteFragen = new Set();
 
 function starten() {
