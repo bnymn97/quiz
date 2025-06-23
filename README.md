@@ -1,37 +1,57 @@
-Brain Brawls - Statische Quiz-Anwendung Deployment mit Terraform
+## Brain Brawls – Deployment einer Statischen Quiz-Anwendung mit Terraform
+Brain Brawls ist eine interaktive, statische Web-App zum Lösen von Quizfragen. Die Anwendung basiert vollständig auf HTML, CSS und JavaScript.
+Sie wird über einen Nginx-Webserver ausgeliefert und vollständig mithilfe von Terraform in der AWS Cloud bereitgestellt.
 
-Brain Brawls ist eine statische Quiz-Anwendung, die als Web-App konzipiert wurde. Die Benutzeroberfläche basiert auf HTML, CSS und JavaScript und stellt einen interaktiven Quiz bereit, bei dem die Nutzer Fragen beantworten und direkt Feedback erhalten.
-Da die Anwendung statisch ist, wird sie über einen Webserver (Nginx) ausgeliefert – es gibt keinen serverseitigen Anwendungslogik-Code.
+## 🔧 Voraussetzungen
 
-Die Bereitstellung der Anwendung erfolgt mithilfe von Terraform, das:
-- Eine eigene VPC mit einem öffentlichen Subnetz erstellt.
-- Ein Internet-Gateway und passende Routing-Regeln konfiguriert.
-- Eine EC2-Instanz startet, auf der Nginx automatisch installiert wird.
-- Über ein `user_data`-Skript das Git-Repository mit der statischen Anwendung klont und die Dateien in das Nginx-Webverzeichnis kopiert.
+Ein aktives AWS-Konto
 
-Voraussetzungen
+Terraform (Version ≥ 1.0.0)
 
-- Ein AWS-Konto
-- Terraform (Version 1.0.0 oder höher)
-- Ein AWS Key-Pair (achten Sie darauf, dass der in der Terraform-Konfiguration angegebene `key_name` übereinstimmt)
+Ein AWS Key-Pair (achte darauf, dass der key_name in der Terraform-Konfiguration korrekt gesetzt ist)
 
-Infrastruktur
+## 🌐 Infrastrukturübersicht
+Die Bereitstellung erfolgt vollständig über Terraform und umfasst folgende Komponenten:
 
-Die bereitgestellte Infrastruktur umfasst folgende Komponenten:
+- VPC (Virtual Private Cloud): Isolierter Netzwerkbereich
 
-- **VPC**: Eine virtuelle private Cloud, in der die gesamte Infrastruktur isoliert ist.
-- **Öffentliches Subnetz**: Ein Subnetz, das Instanzen mit öffentlichen IP-Adressen versorgt.
-- **Internet-Gateway & Routing**: Ein Internet-Gateway und eine Routing-Tabelle, die den Internetzugriff ermöglichen.
-- **Security Group**: Eine Sicherheitsgruppe, die den Zugriff über SSH (Port 22) und HTTP (Port 80) erlaubt.
-- **EC2-Instanz**: Eine t2.micro Instanz (Ubuntu), die beim Start mit einem `user_data`-Skript initialisiert wird. Dieses Skript installiert Nginx, klont das Git-Repository mit der statischen Quiz-Anwendung und kopiert die Dateien in das Webverzeichnis `/var/www/html`.
+- Öffentliches Subnetz: Mit automatischer Zuweisung öffentlicher IP-Adressen
 
-Bereitstellung
+- Internet-Gateway & Routing-Tabelle: Für ausgehenden Internetzugang
 
-1. Repository klonen  
-   Klonen Sie dieses Repository auf Ihren lokalen Rechner:
-   ```bash
-   git clone https://github.com/bnymn97/quiz.git
-   cd quiz
-2. terraform init
-3. terraform apply
-4. public ip aus der konsole im browser öffnen
+- Security Group: Öffnet Ports 22 (SSH) und 80 (HTTP)
+
+- EC2-Instanz (t2.micro):
+
+- Betriebssystem: Ubuntu
+
+- Installiert automatisch Nginx
+
+- Klont das GitHub-Repository mit der Anwendung
+
+- Kopiert die Dateien nach /var/www/html für die Auslieferung
+
+## 🚀 Deployment-Anleitung
+Repository klonen
+- git clone https://github.com/bnymn97/quiz.git
+- cd quiz
+
+Terraform initialisieren
+- terraform init
+  
+Deployment starten
+- terraform apply
+  
+Zugriff auf die Anwendung
+
+- Nach erfolgreichem Deployment zeigt Terraform die öffentliche IP-Adresse der EC2-Instanz an. Öffne diese IP-Adresse im Browser
+
+## 📂 Verzeichnisstruktur
+```text
+quiz/
+├── main.tf                # Terraform-Konfiguration
+├── variables.tf           # Eingabevariablen
+├── outputs.tf             # Wichtige Ausgaben (z.B. öffentliche IP)
+└── ...
+```
+
